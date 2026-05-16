@@ -12,10 +12,7 @@ console.log(button);
 
 button.addEventListener("click", function(event){
 
-    if (nom.value === "" || email.value === "" || password.value === "") {
-        alert("Please fill in all fields.");
-        return;
-    }
+  
     
     if (nom.value === "") {
     alert("Please fill in username");
