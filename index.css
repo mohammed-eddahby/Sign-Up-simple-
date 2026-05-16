@@ -42,3 +42,11 @@ body{
     font-family: Arial, sans-serif;
     
 }
+
+@media screen and (max-width: 768px) {
+    .form{
+        width: 90%;
+    }
+    
+    
+}
