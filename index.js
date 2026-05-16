@@ -16,17 +16,20 @@ button.addEventListener("click", function(event){
         alert("Please fill in all fields.");
         return;
     }
-    else if (password.value === "") {
-        alert("please fill in password");
-        return;
+    
+    if (nom.value === "") {
+    alert("Please fill in username");
+    return;
     }
-    else if (email.value === "") {
-        alert("please fill in email");
-        return;
+
+    if (email.value === "") {
+    alert("Please fill in email");
+    return;
     }
-    else if (nom.value === "") {
-        alert("please fill in username");
-        return;
+
+    if (password.value === "") {
+    alert("Please fill in password");
+    return;
     }
 
     event.preventDefault();
